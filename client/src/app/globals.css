@@ -1,4 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@500;600;700&display=swap");
 @import "tailwindcss";
 
 /* Root Variables and Base Styles */
@@ -4833,9 +4833,9 @@ input, textarea, select {
 }
 
 .bots-hero-stats {
-  display: grid;
+  display: flex;
+  justify-content: center;
   gap: 0.8rem;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: 1.6rem;
 }
 
