@@ -184,7 +184,7 @@ export const DISCORD_BOTS = [
   {
     id: 4,
     name: 'Flame',
-    type: 'All-in-One',
+    type: 'All-in-One · Free · Premium',
     description: 'Ultimate all-in-one security and moderation bot. Features the fastest antinuke protection, comprehensive security measures, and powerful moderation tools for your server.',
     features: ['Antinuke Protection', 'Security Suite', 'Moderation Tools', 'Fast Responses'],
     inviteUrl: 'https://discord.com/oauth2/authorize?client_id=1259218811131793479&permissions=414530792793&integration_type=0&scope=bot+applications.commands',
