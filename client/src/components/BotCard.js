@@ -6,6 +6,7 @@ export default function BotCard({ bot }) {
     'Premium': '#f59e0b',
     'Free + Premium': '#8b5cf6',
     'All-in-One': '#ef4444',
+    'All-in-One · Free · Premium': '#ef4444',
   };
 
   const botLogos = {
@@ -43,13 +44,13 @@ export default function BotCard({ bot }) {
             />
           </span>
           <h3 className="bot-card-title">{bot.name}</h3>
+          <span 
+            className="bot-type-badge"
+            style={{ backgroundColor: typeColors[bot.type] || '#6b7280' }}
+          >
+            {bot.type}
+          </span>
         </div>
-        <span 
-          className="bot-type-badge"
-          style={{ backgroundColor: typeColors[bot.type] || '#6b7280' }}
-        >
-          {bot.type}
-        </span>
       </div>
       <p className="bot-role-line">{botRoles[bot.name] || 'Discord utility bot'}</p>
       <p className="bot-description">{bot.description}</p>
