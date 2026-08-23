@@ -4,8 +4,7 @@ import { DISCORD_BOTS, SITE_CONFIG } from '@/config/site';
 import BotCard from '@/components/BotCard';
 
 export default function BotsPage() {
-  const freeBots = DISCORD_BOTS.filter((bot) => bot.type.includes('Free')).length;
-  const premiumBots = DISCORD_BOTS.filter((bot) => bot.type.includes('Premium')).length;
+
 
   return (
     <div className="bots-page">
@@ -27,15 +26,12 @@ export default function BotsPage() {
 
             <div className="bots-hero-stats">
               <div className="bots-stat-chip">
-                <strong>{DISCORD_BOTS.length}</strong>
                 <span>Bot Options</span>
               </div>
               <div className="bots-stat-chip">
-                <strong>{freeBots}</strong>
                 <span>Free Options</span>
               </div>
               <div className="bots-stat-chip">
-                <strong>{premiumBots}</strong>
                 <span>Premium Ready</span>
               </div>
             </div>
