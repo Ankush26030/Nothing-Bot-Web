@@ -36,7 +36,7 @@ export default function HeroSection() {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-4 md:gap-8 pt-12 border-t border-zinc-700/80">
             <div>
-              <div className="text-2xl md:text-3xl font-bold gradient-text">50K+</div>
+              <div className="text-2xl md:text-3xl font-bold gradient-text">6000+</div>
               <p className="text-zinc-400 text-sm md:text-base">Servers</p>
             </div>
             <div>
