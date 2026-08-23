@@ -60,7 +60,7 @@ export default function Footer() {
             </div>
             <p className="footer-brand-desc">The perfect Discord music bot companion. Crystal clear audio, smart playlists, and AI recommendations.</p>
 
-            <a
+            {/* <a
               href={SITE_CONFIG.links.hostingPartner}
               target="_blank"
               rel="noreferrer"
@@ -74,7 +74,7 @@ export default function Footer() {
                 <span className="footer-hosting-label">Hosting Partner</span>
                 <span className="footer-hosting-name">Glacier Hosting</span>
               </span>
-            </a>
+            </a> */}
             
             <div className="footer-newsletter">
               <label className="footer-label">Subscribe for Updates</label>
