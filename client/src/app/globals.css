@@ -4943,6 +4943,7 @@ input, textarea, select {
 .bot-card-identity {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.72rem;
   min-width: 0;
 }
