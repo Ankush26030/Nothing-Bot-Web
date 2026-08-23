@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { SITE_CONFIG } from '@/config/site';
 import Image from 'next/image';
@@ -22,9 +22,9 @@ import { GiGuitar, GiViolin } from 'react-icons/gi';
 
 const HERO_STATS = [
   { value: '50 Lakh+', label: 'Total Users' },
-  { value: '4500+', label: 'Active Servers' },
+  { value: '6000+', label: 'Active Servers' },
   { value: '99.4%', label: 'Uptime' },
-  { value: '30ms', label: 'Avg Ping' },
+  { value: '<20ms', label: 'Avg Ping' },
 ];
 
 const HERO_HIGHLIGHTS = [
@@ -85,9 +85,9 @@ const LIVE_PLAYLIST = [
 
 const IMPACT_STATS = [
   { value: '50 Lakh+', label: 'Total Users', icon: FiUsers },
-  { value: '4500+', label: 'Active Servers', icon: FiServer },
+  { value: '6000+', label: 'Active Servers', icon: FiServer },
   { value: '99.4%', label: 'Uptime', icon: FiCheckCircle },
-  { value: '30ms', label: 'Avg Ping', icon: FiActivity },
+  { value: '<20ms', label: 'Avg Ping', icon: FiActivity },
 ];
 
 const WHY_CHOOSE_US = [
