@@ -28,12 +28,6 @@ export default function BotsPage() {
               <div className="bots-stat-chip">
                 <span>Bot Options</span>
               </div>
-              <div className="bots-stat-chip">
-                <span>Free Options</span>
-              </div>
-              <div className="bots-stat-chip">
-                <span>Premium Ready</span>
-              </div>
             </div>
           </div>
         </div>
