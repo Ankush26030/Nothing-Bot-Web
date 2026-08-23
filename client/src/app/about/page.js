@@ -25,7 +25,7 @@ export default function AboutPage() {
 
   const stats = [
     { label: 'Active Users', value: '5M+' },
-    { label: 'Discord Servers', value: '4500+' },
+    { label: 'Discord Servers', value: '6000+' },
     { label: 'Songs Daily', value: '10M+' },
     { label: 'Uptime Target', value: '99.9%' },
   ];
