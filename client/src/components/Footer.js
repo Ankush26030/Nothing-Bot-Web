@@ -83,6 +83,9 @@ export default function Footer() {
               className="footer-hosting-partner"
               aria-label="ACLClouds"
             >
+              <span className="footer-hosting-logo-wrap" aria-hidden="true">
+                <img src="/aclclouds-hosting.jpeg" alt="" className="footer-hosting-logo" />
+              </span>
               <span className="footer-hosting-copy">
                 <span className="footer-hosting-label">Hosting Partner</span>
                 <span className="footer-hosting-name">ACLClouds</span>
