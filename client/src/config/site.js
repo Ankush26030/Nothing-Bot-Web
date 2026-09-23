@@ -14,7 +14,7 @@ export const SITE_CONFIG = {
     github: 'https://github.com/Ankush26030',
     discord: 'https://discord.gg/w77ymEU82a',
     docs: '/docs',
-    // hostingPartner: 'https://aclclouds.com/en/',
+    hostingPartner: 'https://aclclouds.com/en/',
   },
   
   // Bot settings
